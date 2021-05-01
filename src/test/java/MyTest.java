@@ -19,16 +19,16 @@ public class MyTest {
     	By textbox_dob_day=By.id("usernamereg-day");
     	By textbox_dob_year=By.id("usernamereg-year");
     	By continuebtn=By.id("reg-submit-button");
-    	System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver","C:\\Users\\Raunak\\Downloads\\chromedriver_win32\\chromedriver.exe");
     	driver=new ChromeDriver();
     	
     	driver.navigate().to("https://login.yahoo.com/account/create");
     	
-    	driver.findElement(textbox_firstname).sendKeys("ABC");
+    	driver.findElement(textbox_firstname).sendKeys("Divya");
     	Thread.sleep(5000);
-    	driver.findElement(textbox_lastname).sendKeys("BHHJ");
+    	driver.findElement(textbox_lastname).sendKeys("Patel");
     	Thread.sleep(5000);
-    	driver.findElement(textbox_username).sendKeys("jhjbhkjsdkjnfksjbk");
+    	driver.findElement(textbox_username).sendKeys("Divya.test1234");
     	Thread.sleep(5000);
     	driver.findElement(textbox_username).sendKeys(Keys.TAB);
     	//driver.findElement(username).click();
